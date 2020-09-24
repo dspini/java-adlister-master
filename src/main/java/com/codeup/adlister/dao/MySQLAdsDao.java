@@ -1,8 +1,11 @@
-package dao;
+package com.codeup.adlister.dao;
 
-import models.Ad;
+import com.codeup.adlister.models.Ad;
 import com.mysql.cj.jdbc.Driver;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
